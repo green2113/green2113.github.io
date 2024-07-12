@@ -250,6 +250,13 @@ form{
         max-width: var(--max-width-calc)
     }
     .eVsdmYw{
-        margin-top: 50px;
+        margin-top: 30px;
+    }
+    .kFPmok{
+        font-size: 25px;
+        margin: 0 0 30px;
+    }
+    body{
+        min-width: 235px;
     }
 }
