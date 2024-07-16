@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const webhookUrl = 'https://discord.com/api/webhooks/1210729261779128361/ICfaz9q-EHWTFZFZnsSZLoNZukPwf8ZokOrG48Q_fJL5ZTBwBGofzjRPYE8iq4pz0aKJ'; // 웹훅 URL
     const embed = {
         title: '문의가 도착했습니다',
-        description: '```' + '디스코드 유저이름: ' + username + '\n\n' + detail + '```',
+        description: '```' + '이메일: ' + username + '\n\n' + detail + '```',
         color: 0xFFFF00 // 16진법 색상 코드
     };
     const data = {
